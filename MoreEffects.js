@@ -1,11 +1,6 @@
 (function(Scratch) {
   'use strict';
 
-  if (!Scratch.extensions.unsandboxed) {
-    throw new Error("Effects extension must be run unsandboxed");
-  }
-
-
   let toCorrectThing = null;
   let active = false;
   let flipY = false;
