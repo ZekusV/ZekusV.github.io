@@ -1,3 +1,4 @@
+(Scratch => {
 const ArgumentType = Scratch.ArgumentType;
 const BlockType = Scratch.BlockType;
 const formatMessage = Scratch.formatMessage;
@@ -133,3 +134,4 @@ class DiscordExtension {
 }
 
 Scratch.extensions.register(new DiscordExtension());
+})(Scratch);
